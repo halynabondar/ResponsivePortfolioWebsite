@@ -1,3 +1,5 @@
+"use client"
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -32,7 +34,7 @@ export function NavBar() {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand className="logo" href="#home">
                     <img src={logo} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
