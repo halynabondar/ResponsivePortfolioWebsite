@@ -48,7 +48,9 @@ export default function Banner() {
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my Portfolio!</span>
-                        <h1>{`Hi, I'm webdecoded `}<span className='wrap'><br/>{text}</span></h1>
+                        <h1>{`Hi, I'm webdecoded `}<span className="txt-rotate" dataPeriod="1000"
+                                                         data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span
+                            className='wrap'><br/>{text}</span></span></h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque facilis fuga inventore
                             ipsum odio quaerat quam sed temporibus vero voluptas!</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/>
