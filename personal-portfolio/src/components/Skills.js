@@ -6,11 +6,10 @@ import meter2 from "../assets/images/meter2.svg"
 import meter3 from "../assets/images/meter3.svg"
 import colorSharp from "../assets/images/color-sharp.png"
 
-export default function Skills() {
+export function Skills() {
 
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },

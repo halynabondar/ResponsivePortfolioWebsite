@@ -3,7 +3,7 @@ import {ArrowRightCircle} from 'react-bootstrap-icons';
 import headerImg from '../assets/images/header-img.svg';
 import {useEffect, useState} from "react";
 
-export default function Banner() {
+export function Banner() {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];

@@ -10,7 +10,7 @@ import navIcon2 from '../assets/images/nav-icon2.svg';
 import navIcon3 from '../assets/images/nav-icon3.svg';
 
 
-export default function NavBar() {
+export function NavBar() {
     const [activeLink, setActiveLink] = useState("home");
     const [scrolled, setScrolled] = useState(false);
 
